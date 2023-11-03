@@ -16,7 +16,7 @@ export const contactStore = {
         let store = getStore();
         let actions = getActions();
         let { respuestaJson, response } = await actions.useFetch(
-          "/apis/fake/contact/agenda/Augusto",
+          "/apis/fake/contact/agenda/Bernardo",
           null
         );
         setStore({ ...store, listaContactos: respuestaJson });
