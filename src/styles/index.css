@@ -1,3 +1,17 @@
-/* 
-    General Styles
-*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: solid;
+  }
+  
+  .bg-custom {
+    border-radius: 30px;
+    background-color: aquamarine;
+    border: 3px white;
+    -webkit-box-shadow: 5px 5px 15px 5px #bbbbbb;
+    box-shadow: 5px 5px 15px 5px #d6d4d4;
+    color: black;
+  }
